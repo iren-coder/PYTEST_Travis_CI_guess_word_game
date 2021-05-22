@@ -8,7 +8,7 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
 
-from game import word_choice, check_letter, update_underscore
+from app import word_choice, check_letter, update_underscore
 
 
 def test_word_choice(word_generation):
