@@ -1,0 +1,13 @@
+attrs
+coverage
+importlib-metadata
+iniconfig
+packaging
+pluggy
+py
+pyparsing
+pytest
+pytest-cov
+six
+toml
+zipp
