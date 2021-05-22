@@ -1,13 +1,11 @@
 import random
 
-#создаём словарь со словами, участвующими в игре
 def word_choice():
     words = ['skillfactory', 'testing', 'blackbox', 'pytest', 'unittest', 'coverage']
     choice = random.choice(words)
 
     return choice
 
-#функция проверки нахождения буквы в слове
 def check_letter(letter, word):
     if letter in word:
         return True
