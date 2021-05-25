@@ -17,5 +17,5 @@
 2. Создайт виртуальное окружение: python -m venv env
 3. Активировать виртуальное окружение: source env/bin/activate
 4. Установить зависимости: pip install -r requirements.txt.        
-5. Тесты запускаются командой: pytest tests/test_pytest.py
+5. Тесты запускаются командой: pytest tests/test_pytest.py 
 6. Отчет о покрытии приложения тестами: pytest --cov=. tests/test_pytest.py
